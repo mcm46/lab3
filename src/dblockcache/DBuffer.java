@@ -12,7 +12,7 @@ public abstract class DBuffer
 	/* Check whether the buffer has valid data */ 
 	public abstract boolean checkValid();
 	
-	/* Wait until the buffer is free */
+	/* Wait until the buffer has valid data */
 	public abstract boolean waitValid();
 	
 	/* Check whether the buffer is dirty, i.e., has modified data to be written back */
